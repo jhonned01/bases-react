@@ -49,9 +49,17 @@
     align-items: center;
     display: flex;
     cursor: pointer;
+    
   }
   
   .header__menu--profile img {
     margin-right: 8px;
     width: 40px;
+  }
+
+  .header__menu__profile__img{
+    width: 100px;
+    height: 100px;
+    // overflow: hidden;
+    object-fit: cover;
   }
